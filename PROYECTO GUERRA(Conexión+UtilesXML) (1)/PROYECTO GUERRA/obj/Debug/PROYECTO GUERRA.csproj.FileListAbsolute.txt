@@ -1,0 +1,104 @@
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO GUERRA.csprojAssemblyReference.cache
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Agregaramigos.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Ajustes.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Chat.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Crearpartida.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Dentrodejugar.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.IngresarPartida.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.iniciosesion.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.JuegoPartidade2.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Jugandopartidade3.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.JugandoPartidade4.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Jugar.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.MenuPrincipal.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Partida.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Perfil.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Registro.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Reglas.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Soporte.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO GUERRA.csproj.GenerateResource.cache
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto1.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto10.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto11.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto12.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto2.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto3.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto4.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto5.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto6.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto7.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto8.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\basto9.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\comodin0.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa1.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa10.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa11.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa12.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa2.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa3.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa4.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa5.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa6.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa7.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa8.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\copa9.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada1.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada10.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada11.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada12.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada2.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada3.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada4.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada5.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada6.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada7.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada8.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\espada9.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro1.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro10.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro11.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro12.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro2.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro3.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro4.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro5.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro6.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro7.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro8.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\oro9.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\reves.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\revesR.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\vacia.png
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Baraja\README.md
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\PROYECTO GUERRA.exe.config
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\PROYECTO GUERRA.exe
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\PROYECTO GUERRA.pdb
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Google.Protobuf.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\MySql.Data.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Renci.SshNet.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\System.Buffers.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\System.Memory.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Zstandard.Net.dll
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Google.Protobuf.pdb
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Google.Protobuf.xml
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\MySql.Data.xml
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\Renci.SshNet.xml
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\System.Buffers.xml
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\System.Memory.xml
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Properties.Resources.resources
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO GUERRA.csproj.CoreCompileInputs.cache
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO GUERRA.csproj.CopyComplete
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO GUERRA.exe
+C:\Users\Informatica 3BG\Desktop\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO GUERRA.pdb
