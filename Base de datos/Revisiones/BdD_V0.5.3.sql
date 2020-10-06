@@ -1,0 +1,148 @@
+DROP DATABASE pruebas;
+CREATE DATABASE pruebas;
+USE pruebas;
+
+/*Login*/
+DROP USER IF EXISTS "Pruebas"@"%";
+CREATE USER "Pruebas"@"%" IDENTIFIED BY "59LaU0AOek-ydyE[";
+
+GRANT
+INSERT,SELECT,UPDATE,DELETE,
+CREATE ROUTINE,ALTER ROUTINE,EXECUTE 
+ON Pruebas.* 
+TO "Pruebas"@"%";
+
+/*Creacion de las tablas*/
+
+CREATE TABLE Registro(
+U_Nombre VARCHAR(30) UNIQUE NOT NULL,
+U_Correo VARCHAR(35) UNIQUE NOT NULL PRIMARY KEY,
+U_Contrasena VARCHAR(25) NOT NULL
+);
+
+CREATE TABLE Usuario(
+U_Nombre VARCHAR(30) NOT NULL,
+U_ID INTEGER(8) NOT NULL PRIMARY KEY,
+U_Correo VARCHAR(30) NOT NULL,
+U_Contrasena INTEGER(25) NOT NULL,
+U_Sal VARCHAR(100) NOT NULL,
+U_Hash VARCHAR(88) NOT NULL,
+U_Categoria ENUM ('Administrador','Jugador') DEFAULT 'Jugador',
+U_registro datetime DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Inicia(
+usuario_CI INTEGER(8) UNSIGNED NOT NULL,
+sesion_ID INTEGER(10) NOT NULL UNIQUE PRIMARY KEY,
+fecha_abierta TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+fecha_cerrada TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Sesion(
+S_ID int(10) UNSIGNED NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,
+S_estado ENUM('Abierta','Cerrada') DEFAULT 'Abierta'
+);
+
+CREATE TABLE Chat(
+ID_E INTEGER(8) NOT NULL,
+ID_R INTEGER(8) NOT NULL,
+PRIMARY KEY(ID_E, ID_R),
+Mensaje VARCHAR(200) NOT NULL
+);
+
+CREATE TABLE Perfil(
+Perfil_Nombre VARCHAR(30) NOT NULL,
+Perfil_ID INTEGER(8) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Perfil_Puntaje INTEGER(5) UNSIGNED NOT NULL
+);
+
+CREATE TABLE Partida(
+Partida_ID INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Partida_Puntaje INTEGER(1),
+Partida_Tipo ENUM('VS1','VS2','VS3'),
+Partida_Ganador INTEGER(8)
+);
+
+CREATE TABLE Baraja(
+Baraja_ID INTEGER(8) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY 
+);
+
+
+CREATE TABLE Jugada(
+Jugada_ID INTEGER(10) UNSIGNED NOT NULL  AUTO_INCREMENT PRIMARY KEY,
+Jugada_Tipo VARCHAR(110),
+Jugada_Estado ENUM('Repartiendo','Jugando','Fin de partida')
+);
+
+CREATE TABLE Usuario_Jugada(
+U_ID INTEGER(8),
+Jugada_ID INTEGER(10),
+PRIMARY KEY(U_ID, Jugada_ID)
+);
+
+CREATE TABLE Partida_Jugada(
+Partida_ID INTEGER(10),
+Jugada_ID INTEGER(10),
+PRIMARY KEY(Partida_ID, Jugada_ID)
+);
+
+/*Reparar*/
+ALTER TABLE Usuario
+ADD CONSTRAINT fk_Usuario_Jugada
+FOREIGN KEY (U_ID)
+REFERENCES Usuario(U_ID)
+ON UPDATE CASCADE
+ON DELETE CASCADE
+;
+
+/*Reparar*/
+ALTER TABLE Usuario
+ADD CONSTRAINT fk_Jugada_Usuario
+FOREIGN KEY(Jugada_ID)
+REFERENCES Jugada(Jugada_ID)
+ON UPDATE CASCADE
+ON DELETE CASCADE
+;
+
+/*Para revisar*/
+/*
+ALTER TABLE Partida
+ADD CONSTRAINT fk_Partida_Perfil
+FOREIGN KEY(Partida_Puntaje)
+REFERENCES Partida(Partida_Puntaje)
+ON UPDATE CASCADE
+ON DELETE CASCADE
+;
+
+ALTER TABLE Partida
+ADD CONSTRAINT fk_Perfil_Partida
+FOREIGN KEY(Perfil_Puntaje)
+REFERENCES Perfil(Perfil_Puntaje)
+ON UPDATE CASCADE
+ON DELETE CASCADE
+;
+*/
+
+/*
+CREATE TABLE Tiene(
+);
+*/
+
+/*
+ALTER TABLE Perfil(
+FOREIGN KEY fk_Perfil_N(Perfil_Nombre)
+REFERENCES Usuario(U_Nombre)
+UPDATE ON CASCADE
+);
+*/
+
+/*Insercion de datos*/
+INSERT INTO Usuario(U_Nombre,U_ID, U_Contrasena, U_Sal, U_Hash, U_Categoria)
+VALUES("MasBien", "74004165", "estaendospanes", "XWfMLkvensagCgDLBERlgbEkiG5nxP8HrAfnusxANuj2MP353lVe7bPlX1Yy7wjOmkEtLWLCKHQzlTzIuzTgVorNuFhhGd8NqXRj",
+"vHMUW2vtwVBjHgBBwDOtuFkkpHwbHhJKVV5RNoqNJuI71ByXV0wHtL7bsFjq0xkdA8xPXIMXeDBnyuHxui8LLTV0", "Administrador");
+
+INSERT INTO Perfil(Perfil_ID) VALUES ("70562541");
+
+INSERT INTO Jugada(Jugada_ID) VALUES ("2352498520");
+ 
+INSERT INTO Perfil(Perfil_Nombre) VALUES ('Jose'),('Antonio'),('Ana'),('Jessica');

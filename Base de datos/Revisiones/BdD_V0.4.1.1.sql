@@ -1,0 +1,80 @@
+DROP DATABASE pruebas;
+CREATE DATABASE pruebas;
+USE pruebas;
+
+/*Login*/
+DROP USER IF EXISTS "Pruebas"@"%";
+CREATE USER "Pruebas"@"%" IDENTIFIED BY "59LaU0AOek-ydyE[";
+
+GRANT
+INSERT,SELECT,UPDATE,DELETE,
+CREATE ROUTINE,ALTER ROUTINE,EXECUTE 
+ON Pruebas.* 
+TO "Pruebas"@"%";
+
+/*Creacion de las tablas*/
+
+CREATE TABLE Registro(
+U_Nombre VARCHAR(30) UNIQUE NOT NULL,
+U_Correo VARCHAR(35) UNIQUE NOT NULL PRIMARY KEY,
+U_Contrasena VARCHAR(25) NOT NULL
+);
+
+CREATE TABLE Usuario(
+U_Nombre VARCHAR(30) NOT NULL,
+U_ID INTEGER(8) NOT NULL PRIMARY KEY,
+U_Correo VARCHAR(30) NOT NULL,
+U_Contrasena INTEGER(25) NOT NULL,
+U_Sal VARCHAR(100) NOT NULL,
+U_Hash VARCHAR(88) NOT NULL,
+U_Categoria ENUM ('Administrador','Jugador') DEFAULT 'Jugador',
+U_registro datetime DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Inicia(
+usuario_CI INTEGER(8) UNSIGNED NOT NULL,
+sesion_ID INTEGER(10) NOT NULL UNIQUE PRIMARY KEY,
+fecha_abierta TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+fecha_cerrada TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Sesion(
+S_ID int(10) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,
+S_estado ENUM('Abierta','Cerrada') DEFAULT 'Abierta'
+);
+
+CREATE TABLE Chat(
+Chat_ID INTEGER(8) UNIQUE NOT NULL PRIMARY KEY
+);
+
+CREATE TABLE Perfil(
+Perfil_Nombre VARCHAR(30) NOT NULL,
+Perfil_ID INTEGER(8) NOT NULL PRIMARY KEY,
+Perfil_Puntaje INTEGER(5) NOT NULL
+);
+
+CREATE TABLE Partida(
+Partida_ID INTEGER(10) NOT NULL PRIMARY KEY,
+Partida_Puntaje INTEGER(1)
+);
+
+CREATE TABLE Baraja(
+Baraja_ID INTEGER(8) NOT NULL PRIMARY KEY
+);
+
+CREATE TABLE Partida_Perfil(
+
+);
+
+ALTER TABLE Perfil(
+FOREIGN KEY fk_Perfil_P(Perfil_Puntaje)
+REFERENCES Partida(Partida_Puntaje)
+UPDATE ON CASCADE
+);
+
+/*Insercion de datos*/
+INSERT INTO Usuario(U_Nombre,U_ID, U_Contrasena, U_Sal, U_Hash, U_Categoria)
+VALUES("MasBien", "74004165", "estaendospanes", "XWfMLkvensagCgDLBERlgbEkiG5nxP8HrAfnusxANuj2MP353lVe7bPlX1Yy7wjOmkEtLWLCKHQzlTzIuzTgVorNuFhhGd8NqXRj",
+"vHMUW2vtwVBjHgBBwDOtuFkkpHwbHhJKVV5RNoqNJuI71ByXV0wHtL7bsFjq0xkdA8xPXIMXeDBnyuHxui8LLTV0", "Administrador");
+
+INSERT INTO Perfil(Perfil_ID) VALUES ("70562541");
