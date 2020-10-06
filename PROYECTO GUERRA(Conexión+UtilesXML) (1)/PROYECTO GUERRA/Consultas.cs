@@ -115,8 +115,8 @@ namespace PROYECTO_GUERRA
             string[] resultado = new string[2];
             //Un array para almacenar el resultado
 
-            string consulta = "SELECT sal, hash FROM " + bdd + ".usuario " +
-                              "WHERE CI = @usuarioCi";
+            string consulta = "SELECT U_Sal, U_Hash FROM " + bdd + ".usuario " +
+                              "WHERE U_ID = @usuarioCi";
             //La consulta que ejecutaremos en la base de datos
 
             MySqlConnection conexion = utilesBdd.CrearConexion(iPservidor, bdd, usuarioBD, contraseniaBD);
@@ -187,7 +187,7 @@ namespace PROYECTO_GUERRA
             string[] resultado = new string[4];
             //Un array para almacenar el resultado
 
-            string consulta = "SELECT nombre, sal, hash, fecha_registro " +
+            string consulta = "SELECT U_Nombre, U_Sal, U_Hash" +
                               "FROM " + bdd + ".usuario " +
                               "WHERE CI = @usuarioCi";
             //La consulta que ejecutaremos en la base de datos

@@ -46,6 +46,7 @@ namespace PROYECTO_GUERRA
             if (nuevaSesion.Estado.StartsWith("Error"))
             {
                 MessageBox.Show(nuevaSesion.Estado);
+                this.Enabled = true;
             }
             else
             {
