@@ -21,6 +21,9 @@ namespace PROYECTO_GUERRA
         }
 
 
+        /// <summary>
+        /// Reparte las cartas entre los jugadores
+        /// </summary>
         public void RepartirCartas()
         {
             int cant_jugadores = jugadores.Count();

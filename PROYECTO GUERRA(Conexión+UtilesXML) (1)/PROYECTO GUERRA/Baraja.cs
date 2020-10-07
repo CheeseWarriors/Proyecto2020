@@ -75,6 +75,24 @@ namespace PROYECTO_GUERRA
 
         }
 
-        
+
+        public string BarajaATexto()
+        {
+            string resultado="";
+
+
+            foreach (var carta in this.baraja)
+            {
+                string letra = carta.Palo[0]+"";
+                int numero = carta.Numero;
+                resultado = resultado + "-" + letra + "_" + numero;
+
+            }
+            resultado = resultado.Substring(1);
+
+            return resultado;
+        }
+
+
     }
 }

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{7B18D98E-5400-404B-BF8B-250E3F797503}|Default">
+  <MonoDevelop.Ide.ItemProperties.PROYECTO_220GUERRA PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Baraja.cs">
+    <Files>
+      <File FileName="Juego.cs" Line="25" Column="51" />
+      <File FileName="Baraja.cs" Line="91" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PROYECTO GUERRA (1)" expanded="True">
+            <Node name="PROYECTO GUERRA" expanded="True">
+              <Node name="Baraja.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
