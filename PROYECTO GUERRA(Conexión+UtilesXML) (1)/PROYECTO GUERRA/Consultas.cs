@@ -300,6 +300,7 @@ namespace PROYECTO_GUERRA
                 nuevaSesion.Estado = "Error: " + ex.Message;
 
             }
+        
 
             conexion.Close();
 

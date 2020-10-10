@@ -1,6 +1,6 @@
 ﻿namespace PROYECTO_GUERRA
 {
-    partial class iniciosesion
+    partial class Iniciosesion
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(iniciosesion));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Iniciosesion));
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,17 +45,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(196, 188);
+            this.label1.Location = new System.Drawing.Point(307, 190);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 19);
+            this.label1.Size = new System.Drawing.Size(28, 19);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre de Usuario:";
+            this.label1.Text = "CI:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(258, 232);
+            this.label4.Location = new System.Drawing.Point(245, 235);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(99, 19);
             this.label4.TabIndex = 3;
@@ -85,14 +85,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(354, 186);
+            this.textBox1.Location = new System.Drawing.Point(341, 189);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(198, 20);
             this.textBox1.TabIndex = 6;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(354, 231);
+            this.textBox2.Location = new System.Drawing.Point(341, 234);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(198, 20);
@@ -101,7 +101,7 @@
             // btn_Ingresar
             // 
             this.btn_Ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Ingresar.Location = new System.Drawing.Point(354, 281);
+            this.btn_Ingresar.Location = new System.Drawing.Point(375, 277);
             this.btn_Ingresar.Name = "btn_Ingresar";
             this.btn_Ingresar.Size = new System.Drawing.Size(101, 32);
             this.btn_Ingresar.TabIndex = 9;
@@ -111,10 +111,10 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::PROYECTO_GUERRA.Properties.Resources.Logo;
-            this.pictureBox2.Location = new System.Drawing.Point(258, 23);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(265, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(273, 138);
+            this.pictureBox2.Size = new System.Drawing.Size(294, 157);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;

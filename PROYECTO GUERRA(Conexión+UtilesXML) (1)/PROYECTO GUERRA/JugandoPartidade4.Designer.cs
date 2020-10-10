@@ -46,10 +46,11 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.btnmazo = new System.Windows.Forms.Button();
-            this.lbl_cantCartas = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.etiq_cartajug1 = new System.Windows.Forms.Label();
+            this.etiq_cartajug2 = new System.Windows.Forms.Label();
+            this.etiq_cartajug4 = new System.Windows.Forms.Label();
+            this.etiq_cartajug3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -242,44 +243,54 @@
             this.btnmazo.UseVisualStyleBackColor = false;
             this.btnmazo.Click += new System.EventHandler(this.btnmazo_Click);
             // 
-            // lbl_cantCartas
+            // etiq_cartajug1
             // 
-            this.lbl_cantCartas.AutoSize = true;
-            this.lbl_cantCartas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cantCartas.Location = new System.Drawing.Point(164, 9);
-            this.lbl_cantCartas.Name = "lbl_cantCartas";
-            this.lbl_cantCartas.Size = new System.Drawing.Size(0, 13);
-            this.lbl_cantCartas.TabIndex = 65;
+            this.etiq_cartajug1.AutoSize = true;
+            this.etiq_cartajug1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiq_cartajug1.Location = new System.Drawing.Point(164, 9);
+            this.etiq_cartajug1.Name = "etiq_cartajug1";
+            this.etiq_cartajug1.Size = new System.Drawing.Size(0, 13);
+            this.etiq_cartajug1.TabIndex = 65;
             // 
-            // label10
+            // etiq_cartajug2
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(656, 9);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(21, 13);
-            this.label10.TabIndex = 66;
-            this.label10.Text = "12";
+            this.etiq_cartajug2.AutoSize = true;
+            this.etiq_cartajug2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiq_cartajug2.Location = new System.Drawing.Point(656, 9);
+            this.etiq_cartajug2.Name = "etiq_cartajug2";
+            this.etiq_cartajug2.Size = new System.Drawing.Size(21, 13);
+            this.etiq_cartajug2.TabIndex = 66;
+            this.etiq_cartajug2.Text = "12";
             // 
-            // label11
+            // etiq_cartajug4
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(656, 324);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(21, 13);
-            this.label11.TabIndex = 67;
-            this.label11.Text = "12";
+            this.etiq_cartajug4.AutoSize = true;
+            this.etiq_cartajug4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiq_cartajug4.Location = new System.Drawing.Point(656, 324);
+            this.etiq_cartajug4.Name = "etiq_cartajug4";
+            this.etiq_cartajug4.Size = new System.Drawing.Size(21, 13);
+            this.etiq_cartajug4.TabIndex = 67;
+            this.etiq_cartajug4.Text = "12";
             // 
-            // label12
+            // etiq_cartajug3
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(164, 324);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(21, 13);
-            this.label12.TabIndex = 68;
-            this.label12.Text = "12";
+            this.etiq_cartajug3.AutoSize = true;
+            this.etiq_cartajug3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiq_cartajug3.Location = new System.Drawing.Point(164, 324);
+            this.etiq_cartajug3.Name = "etiq_cartajug3";
+            this.etiq_cartajug3.Size = new System.Drawing.Size(21, 13);
+            this.etiq_cartajug3.TabIndex = 68;
+            this.etiq_cartajug3.Text = "12";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(377, 74);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 69;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // JugandoPartidade4
             // 
@@ -287,10 +298,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(843, 483);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.lbl_cantCartas);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.etiq_cartajug3);
+            this.Controls.Add(this.etiq_cartajug4);
+            this.Controls.Add(this.etiq_cartajug2);
+            this.Controls.Add(this.etiq_cartajug1);
             this.Controls.Add(this.btnmazo);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -346,9 +358,10 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnmazo;
-        private System.Windows.Forms.Label lbl_cantCartas;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label etiq_cartajug1;
+        private System.Windows.Forms.Label etiq_cartajug2;
+        private System.Windows.Forms.Label etiq_cartajug4;
+        private System.Windows.Forms.Label etiq_cartajug3;
+        private System.Windows.Forms.Button button2;
     }
 }

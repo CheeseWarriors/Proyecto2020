@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ajustes));
             this.lbl_IP = new System.Windows.Forms.Label();
             this.lbl_usuMySQL = new System.Windows.Forms.Label();
             this.lbl_contraseña = new System.Windows.Forms.Label();
@@ -128,6 +129,7 @@
             this.btn_cancelar.TabIndex = 9;
             this.btn_cancelar.Text = "Cancelar";
             this.btn_cancelar.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
             // Ajustes
             // 
@@ -145,6 +147,7 @@
             this.Controls.Add(this.lbl_contraseña);
             this.Controls.Add(this.lbl_usuMySQL);
             this.Controls.Add(this.lbl_IP);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ajustes";
             this.Text = "Ajustes";
             this.ResumeLayout(false);

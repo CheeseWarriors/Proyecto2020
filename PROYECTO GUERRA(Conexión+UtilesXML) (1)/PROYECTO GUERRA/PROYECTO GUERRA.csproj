@@ -126,6 +126,12 @@
     <Compile Include="Crearpartida.Designer.cs">
       <DependentUpon>Crearpartida.cs</DependentUpon>
     </Compile>
+    <Compile Include="Créditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Créditos.Designer.cs">
+      <DependentUpon>Créditos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dentrodejugar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,11 +145,11 @@
     <Compile Include="IngresarPartida.Designer.cs">
       <DependentUpon>IngresarPartida.cs</DependentUpon>
     </Compile>
-    <Compile Include="IniciodeSesion.cs">
+    <Compile Include="Iniciosesion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IniciodeSesion.Designer.cs">
-      <DependentUpon>IniciodeSesion.cs</DependentUpon>
+    <Compile Include="Iniciosesion.Designer.cs">
+      <DependentUpon>Iniciosesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Juego.cs" />
     <Compile Include="JuegoPartidade2.cs">
@@ -178,11 +184,12 @@
     <Compile Include="MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Partida.cs">
+    <Compile Include="Partida.cs" />
+    <Compile Include="VentanaPartida.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Partida.Designer.cs">
-      <DependentUpon>Partida.cs</DependentUpon>
+    <Compile Include="VentanaPartida.Designer.cs">
+      <DependentUpon>VentanaPartida.cs</DependentUpon>
     </Compile>
     <Compile Include="Perfil.cs">
       <SubType>Form</SubType>
@@ -225,14 +232,17 @@
     <EmbeddedResource Include="Crearpartida.resx">
       <DependentUpon>Crearpartida.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Créditos.resx">
+      <DependentUpon>Créditos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dentrodejugar.resx">
       <DependentUpon>Dentrodejugar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresarPartida.resx">
       <DependentUpon>IngresarPartida.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IniciodeSesion.resx">
-      <DependentUpon>IniciodeSesion.cs</DependentUpon>
+    <EmbeddedResource Include="Iniciosesion.resx">
+      <DependentUpon>Iniciosesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JuegoPartidade2.resx">
       <DependentUpon>JuegoPartidade2.cs</DependentUpon>
@@ -249,8 +259,8 @@
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Partida.resx">
-      <DependentUpon>Partida.cs</DependentUpon>
+    <EmbeddedResource Include="VentanaPartida.resx">
+      <DependentUpon>VentanaPartida.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Perfil.resx">
       <DependentUpon>Perfil.cs</DependentUpon>

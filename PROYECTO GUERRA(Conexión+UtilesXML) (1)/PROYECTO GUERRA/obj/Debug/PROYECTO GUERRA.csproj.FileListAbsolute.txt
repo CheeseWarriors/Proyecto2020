@@ -195,7 +195,6 @@ C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO G
 C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.JugandoPartidade4.resources
 C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Jugar.resources
 C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.MenuPrincipal.resources
-C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Partida.resources
 C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Perfil.resources
 C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Properties.Resources.resources
 C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Registro.resources
@@ -206,3 +205,5 @@ C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO G
 C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO GUERRA.csproj.CopyComplete
 C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO GUERRA.exe
 C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO GUERRA.pdb
+C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.Créditos.resources
+C:\Users\Informatica 3BG\Documents\GitHub\cheesewarriors\Proyecto2020\PROYECTO GUERRA(Conexión+UtilesXML) (1)\PROYECTO GUERRA\obj\Debug\PROYECTO_GUERRA.VentanaPartida.resources

@@ -8,6 +8,7 @@ namespace PROYECTO_GUERRA
 {
     public class Jugador
     {
+        
         public List<Carta> monton = new List<Carta>();
 
         public void RecibirCarta(Carta carta)

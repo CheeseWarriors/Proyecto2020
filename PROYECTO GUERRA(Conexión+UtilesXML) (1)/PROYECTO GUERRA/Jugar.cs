@@ -34,7 +34,7 @@ namespace PROYECTO_GUERRA
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Partida NuevaVentana = new Partida();
+            VentanaPartida NuevaVentana = new VentanaPartida();
             NuevaVentana.Show();
         }
 

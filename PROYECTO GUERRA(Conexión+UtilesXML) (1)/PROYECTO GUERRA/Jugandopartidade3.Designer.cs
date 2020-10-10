@@ -34,30 +34,28 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.img_cartajugada3 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
+            this.btnmazo3 = new System.Windows.Forms.Button();
+            this.lbl_cantcartas3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_cartajugada3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -94,7 +92,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::PROYECTO_GUERRA.Properties.Resources.vacia;
-            this.pictureBox5.Location = new System.Drawing.Point(506, 181);
+            this.pictureBox5.Location = new System.Drawing.Point(512, 201);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(91, 131);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -104,22 +102,22 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::PROYECTO_GUERRA.Properties.Resources.vacia;
-            this.pictureBox3.Location = new System.Drawing.Point(367, 181);
+            this.pictureBox3.Location = new System.Drawing.Point(373, 201);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(91, 131);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 42;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox2
+            // img_cartajugada3
             // 
-            this.pictureBox2.Image = global::PROYECTO_GUERRA.Properties.Resources.vacia;
-            this.pictureBox2.Location = new System.Drawing.Point(229, 181);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(91, 131);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 41;
-            this.pictureBox2.TabStop = false;
+            this.img_cartajugada3.Image = global::PROYECTO_GUERRA.Properties.Resources.vacia;
+            this.img_cartajugada3.Location = new System.Drawing.Point(235, 201);
+            this.img_cartajugada3.Name = "img_cartajugada3";
+            this.img_cartajugada3.Size = new System.Drawing.Size(91, 131);
+            this.img_cartajugada3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img_cartajugada3.TabIndex = 41;
+            this.img_cartajugada3.TabStop = false;
             // 
             // pictureBox10
             // 
@@ -151,33 +149,22 @@
             this.pictureBox4.TabIndex = 38;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PROYECTO_GUERRA.Properties.Resources.reves;
-            this.pictureBox1.Location = new System.Drawing.Point(127, 21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(92, 131);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 37;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(235, 234);
+            this.label1.Location = new System.Drawing.Point(241, 254);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 26);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 52;
-            this.label1.Text = "Carta Jugador \r\n           1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(380, 234);
+            this.label2.Location = new System.Drawing.Point(386, 254);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 26);
             this.label2.TabIndex = 53;
@@ -188,7 +175,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(512, 234);
+            this.label3.Location = new System.Drawing.Point(518, 254);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 26);
             this.label3.TabIndex = 54;
@@ -227,26 +214,27 @@
             this.label6.TabIndex = 57;
             this.label6.Text = "     Cartas\r\nRecolectadas";
             // 
-            // button2
+            // btnmazo3
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(138, 67);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(68, 31);
-            this.button2.TabIndex = 58;
-            this.button2.Text = "Tirar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnmazo3.BackgroundImage = global::PROYECTO_GUERRA.Properties.Resources.reves;
+            this.btnmazo3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnmazo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmazo3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnmazo3.Location = new System.Drawing.Point(138, 21);
+            this.btnmazo3.Name = "btnmazo3";
+            this.btnmazo3.Size = new System.Drawing.Size(116, 158);
+            this.btnmazo3.TabIndex = 58;
+            this.btnmazo3.UseVisualStyleBackColor = true;
+            this.btnmazo3.Click += new System.EventHandler(this.btnmazo3_Click);
             // 
-            // label7
+            // lbl_cantcartas3
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(163, 5);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(21, 13);
-            this.label7.TabIndex = 59;
-            this.label7.Text = "16";
+            this.lbl_cantcartas3.AutoSize = true;
+            this.lbl_cantcartas3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cantcartas3.Location = new System.Drawing.Point(185, 5);
+            this.lbl_cantcartas3.Name = "lbl_cantcartas3";
+            this.lbl_cantcartas3.Size = new System.Drawing.Size(0, 13);
+            this.lbl_cantcartas3.TabIndex = 59;
             // 
             // label8
             // 
@@ -276,8 +264,8 @@
             this.ClientSize = new System.Drawing.Size(824, 477);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.lbl_cantcartas3);
+            this.Controls.Add(this.btnmazo3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -289,11 +277,10 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.img_cartajugada3);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Jugandopartidade3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -302,11 +289,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_cartajugada3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -317,8 +303,7 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox img_cartajugada3;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
@@ -330,8 +315,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnmazo3;
+        private System.Windows.Forms.Label lbl_cantcartas3;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
     }

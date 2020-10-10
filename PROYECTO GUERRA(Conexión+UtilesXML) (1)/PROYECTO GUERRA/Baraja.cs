@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PROYECTO_GUERRA
 {
-    class Baraja
+    public class Baraja
     {
         Herramientas herramientas = new Herramientas();
 

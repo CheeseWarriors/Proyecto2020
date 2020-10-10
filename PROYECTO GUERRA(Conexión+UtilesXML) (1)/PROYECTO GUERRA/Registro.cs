@@ -12,15 +12,19 @@ namespace PROYECTO_GUERRA
 {
     public partial class Registro : Form
     {
-        public Registro()
+        Iniciosesion ventanaInicio = null;
+        
+
+        public Registro(Iniciosesion ventana)
         {
             InitializeComponent();
+            ventanaInicio = ventana;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            iniciosesion NuevaVentana = new iniciosesion();
+            Iniciosesion NuevaVentana = new Iniciosesion();
             NuevaVentana.Show();
 
         }
@@ -55,6 +59,8 @@ namespace PROYECTO_GUERRA
 
                                     Cursor.Current = Cursors.WaitCursor;
                                     this.Enabled = false;
+                                    
+
                                     //Cambiamos el cursor al 'reloj de espera'
                                     // y deshabilitamos la ventana
 
@@ -74,6 +80,7 @@ namespace PROYECTO_GUERRA
                                     // 3 - Mostramos ese resultado en un MessageBox (puede avisarnos de errores en la BdD)
                                     // y restauramos el cursor.
 
+                                    ventanaInicio.Show();
                                     this.Close();
                                     this.Dispose();
                                     // 4 - Cerramos y limpiamos de la memoria a la ventana

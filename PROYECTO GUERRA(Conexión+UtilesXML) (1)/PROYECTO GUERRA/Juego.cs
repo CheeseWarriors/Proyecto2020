@@ -8,20 +8,18 @@ namespace PROYECTO_GUERRA
 {
     public class Juego
     {
-        List<Jugador> jugadores = new List<Jugador>();
+        
+        
+       
 
-        Baraja baraja = new Baraja();
-
-        public Juego(List<Jugador> jugadores)
+        public Juego()
         {
-            this.jugadores = jugadores;
-            baraja.Barajar_nuevo();
-            RepartirCartas();
+            
 
         }
 
 
-        public void RepartirCartas()
+        public void RepartirCartas(List<Usuario> jugadores, Baraja baraja)
         {
             int cant_jugadores = jugadores.Count();
             int numero_jugador = 0;
@@ -38,6 +36,43 @@ namespace PROYECTO_GUERRA
                 }
             }
         }
+
+
+        public void CompararCartas(Partida partida)
+        {
+            
+            foreach (var carta in partida.Cartasjugadas)
+            {
+                int indice = partida.Cartasjugadas.IndexOf(carta);
+                int numerocarta = carta.Numero;
+                int numerocartasiguiente = partida.Cartasjugadas[indice + 1].Numero;
+                if (numerocarta>numerocartasiguiente)
+                {
+                    partida.Cartasperdidas.Add(partida.Cartasjugadas[indice + 1]);
+                    partida.Cartasjugadas.Remove(partida.Cartasjugadas[indice + 1]);
+                    Console.WriteLine("Gano " + carta.Palo + carta.Numero);
+                }
+                else
+                {
+                    if (numerocarta==numerocartasiguiente)
+                    {
+                        //GUERRA
+                    }
+                    else
+                    {
+                        partida.Cartasperdidas.Add(carta);
+                        partida.Cartasjugadas.Remove(carta);
+                        Console.WriteLine("Gano " + partida.Cartasjugadas[indice + 1].Palo + partida.Cartasjugadas[indice + 1].Numero);
+                    }
+                }
+            }
+            
+        }
+
+
+        
+
+
     }
 
 }

@@ -17,6 +17,7 @@ namespace PROYECTO_GUERRA
             {
                 this.ID = id;
                 this.Estado = "abierta";
+
             }
             else
             {

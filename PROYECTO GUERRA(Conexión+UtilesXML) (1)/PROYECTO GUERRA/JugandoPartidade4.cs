@@ -14,15 +14,26 @@ namespace PROYECTO_GUERRA
 
 
     {
-        Baraja baraja = new Baraja();
+        Partida partida = null;
         Carta cartaJugada = null;
 
+        List<Label> etiquetascantcartas = new List<Label>();
 
-        public JugandoPartidade4()
+
+
+        public JugandoPartidade4(List<Usuario> jugadores)
         {
 
             InitializeComponent();
-            baraja.Barajar_nuevo();
+
+            etiquetascantcartas.Add(etiq_cartajug1);
+            etiquetascantcartas.Add(etiq_cartajug2);
+            etiquetascantcartas.Add(etiq_cartajug3);
+            etiquetascantcartas.Add(etiq_cartajug4);
+
+
+            partida = new Partida(jugadores);
+            ContadorCartasJugadores();
 
 
         }
@@ -46,11 +57,11 @@ namespace PROYECTO_GUERRA
 
         private void btnmazo_Click(object sender, EventArgs e)
         {
-            Console.WriteLine(baraja.baraja.Count.ToString());
-            if (baraja.baraja.Count > 0)
+            Console.WriteLine(partida.Jugadores[0].monton.Count.ToString());
+            if (partida.Jugadores[0].monton.Count > 0)
             {
-                cartaJugada = baraja.baraja[0];
-                baraja.baraja.Remove(cartaJugada);
+                cartaJugada = partida.Jugadores[0].monton[0];//partida.Baraja.baraja[0];
+                partida.Jugadores[0].monton.Remove(cartaJugada);
 
                 String archivo = cartaJugada.InfoImagen();
                 Console.WriteLine(archivo);
@@ -63,7 +74,37 @@ namespace PROYECTO_GUERRA
             {
                 btnmazo.BackgroundImage = Image.FromFile("Baraja\\vacia.png");
             }
-            lbl_cantCartas.Text = baraja.baraja.Count.ToString();
+            ContadorCartasJugadores();
+
+        }
+
+
+        public void ContadorCartasJugadores()
+        {
+            foreach (var jugador in partida.Jugadores)
+            {
+                int cantcartas = jugador.monton.Count;
+                int indice = partida.Jugadores.FindIndex(jug => jug == jugador);
+                etiquetascantcartas[indice].Text = cantcartas.ToString();
+
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            partida.Cartasjugadas.Add(partida.Jugadores[0].monton[0]);
+            partida.Cartasjugadas.Add(partida.Jugadores[1].monton[0]);
+            partida.Cartasjugadas.Add(partida.Jugadores[2].monton[0]);
+            partida.Cartasjugadas.Add(partida.Jugadores[3].monton[0]);
+
+
+            Console.WriteLine("Cartas Jugadas");
+            foreach (var carta in partida.Cartasjugadas)
+            {
+                Console.WriteLine(carta.Palo + carta.Numero);
+            }
+
+            partida.Juego.CompararCartas(partida);
 
         }
     }

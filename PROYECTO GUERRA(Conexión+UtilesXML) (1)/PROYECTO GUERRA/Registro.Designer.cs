@@ -41,6 +41,7 @@
             this.btn_ISesion = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,9 +61,9 @@
             this.lblCI.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCI.Location = new System.Drawing.Point(265, 164);
             this.lblCI.Name = "lblCI";
-            this.lblCI.Size = new System.Drawing.Size(132, 18);
+            this.lblCI.Size = new System.Drawing.Size(29, 18);
             this.lblCI.TabIndex = 2;
-            this.lblCI.Text = "Cédula Identidad";
+            this.lblCI.Text = "CI:";
             // 
             // textBoxCI
             // 
@@ -93,6 +94,7 @@
             // 
             this.textBoxContrasena.Location = new System.Drawing.Point(268, 297);
             this.textBoxContrasena.Name = "textBoxContrasena";
+            this.textBoxContrasena.PasswordChar = '*';
             this.textBoxContrasena.Size = new System.Drawing.Size(263, 20);
             this.textBoxContrasena.TabIndex = 6;
             // 
@@ -110,6 +112,7 @@
             // 
             this.textBoxVContrasena.Location = new System.Drawing.Point(268, 354);
             this.textBoxVContrasena.Name = "textBoxVContrasena";
+            this.textBoxVContrasena.PasswordChar = '*';
             this.textBoxVContrasena.Size = new System.Drawing.Size(263, 20);
             this.textBoxVContrasena.TabIndex = 8;
             // 
@@ -148,7 +151,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PROYECTO_GUERRA.Properties.Resources.Logo;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(258, 23);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(273, 138);
@@ -156,12 +159,24 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(537, 188);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(137, 13);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "*sin puntos ni guiones*";
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_ISesion);
             this.Controls.Add(this.btn_Registrarse);
@@ -198,5 +213,6 @@
         private System.Windows.Forms.Button btn_Registrarse;
         private System.Windows.Forms.Button btn_ISesion;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label1;
     }
 }

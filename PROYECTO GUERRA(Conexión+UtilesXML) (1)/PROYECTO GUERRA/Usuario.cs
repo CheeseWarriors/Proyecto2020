@@ -14,6 +14,9 @@ namespace PROYECTO_GUERRA
         private string hashContrasenia = "";
         private string fecha_registro = "";
 
+        public List<Carta> monton = new List<Carta>();
+
+
         private Herramientas herramientas = new Herramientas();
 
         private Consultas consultas = new Consultas();
@@ -222,6 +225,18 @@ namespace PROYECTO_GUERRA
 
             return resultado;
         }
+
+
+        
+
+        public void RecibirCarta(Carta carta)
+        {
+            monton.Add(carta);
+        }
+
+
+
+
     }
 }
     

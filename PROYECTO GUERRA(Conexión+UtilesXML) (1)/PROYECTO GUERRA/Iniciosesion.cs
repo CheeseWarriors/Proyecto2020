@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PROYECTO_GUERRA
 {
-    public partial class iniciosesion : Form
+    public partial class Iniciosesion : Form
     {
-        public iniciosesion()
+        public Iniciosesion()
         {
             InitializeComponent();
         }
@@ -21,7 +21,7 @@ namespace PROYECTO_GUERRA
         {
             this.Hide();
 
-            Registro registro = new Registro();
+            Registro registro = new Registro(this);
             registro.Show();
         }
 
@@ -50,7 +50,7 @@ namespace PROYECTO_GUERRA
             }
             else
             {
-                MessageBox.Show("Hola, " + usuario.Nombre);
+                MessageBox.Show("Bienvenido a LA GUERRA" + usuario.Nombre);
                 MenuPrincipal NuevaVentana = new MenuPrincipal();
                 NuevaVentana.Show();
                 this.Enabled = true;
@@ -61,6 +61,7 @@ namespace PROYECTO_GUERRA
 
         private void btn_ajustes_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Ajustes ajustes = new Ajustes();
             ajustes.ShowDialog();
         }

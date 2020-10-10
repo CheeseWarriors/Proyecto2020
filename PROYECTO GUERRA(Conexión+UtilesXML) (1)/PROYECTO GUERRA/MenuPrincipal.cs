@@ -12,6 +12,7 @@ namespace PROYECTO_GUERRA
 {
     public partial class MenuPrincipal : Form
     {
+
         public MenuPrincipal()
         {
             InitializeComponent();
@@ -57,7 +58,7 @@ namespace PROYECTO_GUERRA
             if (dialogResult == DialogResult.Yes)
             {
                 this.Close();
-                iniciosesion NuevaVentana = new iniciosesion();
+                Iniciosesion NuevaVentana = new Iniciosesion();
                 NuevaVentana.Show();
 
             }
@@ -71,6 +72,13 @@ namespace PROYECTO_GUERRA
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_creditos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Créditos NuevaVentana = new Créditos();
+            NuevaVentana.Show();
         }
     }
     }

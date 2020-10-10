@@ -61,5 +61,12 @@ namespace PROYECTO_GUERRA
             this.Dispose();
 
         }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Iniciosesion NuevaVentana = new Iniciosesion();
+            NuevaVentana.Show();
+        }
     }
 }

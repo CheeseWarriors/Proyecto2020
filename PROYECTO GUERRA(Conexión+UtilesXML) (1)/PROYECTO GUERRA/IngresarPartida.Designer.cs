@@ -95,7 +95,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(257, 196);
+            this.label1.Location = new System.Drawing.Point(269, 196);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(240, 18);
             this.label1.TabIndex = 28;
@@ -143,10 +143,10 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::PROYECTO_GUERRA.Properties.Resources.Logo;
-            this.pictureBox4.Location = new System.Drawing.Point(260, 22);
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(249, 12);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(273, 138);
+            this.pictureBox4.Size = new System.Drawing.Size(286, 153);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 24;
             this.pictureBox4.TabStop = false;

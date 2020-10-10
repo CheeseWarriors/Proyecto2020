@@ -57,8 +57,8 @@ namespace PROYECTO_GUERRA
             if (dialogResult == DialogResult.Yes)
             {
                 this.Close();
-                JugandoPartidade4 NuevaVentana = new JugandoPartidade4();
-                NuevaVentana.Show();
+                //JugandoPartidade4 NuevaVentana = new JugandoPartidade4();
+                //NuevaVentana.Show();
 
             }
 
@@ -71,7 +71,7 @@ namespace PROYECTO_GUERRA
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Partida NuevaVentana = new Partida();
+            VentanaPartida NuevaVentana = new VentanaPartida();
             NuevaVentana.Show();
         }
     }
